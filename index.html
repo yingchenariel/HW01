@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>excercise 1015</title>
+<!--css 設定後者為大，後者定義：比較下面的那一行-->
+    <link rel="stylesheet" href="main.css">
+<!--    <link rel="stylesheet" href="main2.css"> 這個就是後者，如果有建立的話-->
 </head>
 <body>
 <div>
@@ -33,7 +36,7 @@
 <hr>
 <br>
 <div>
-<!--表格練習 -->
+<!--練習三：表格練習 -->
 <!--捷徑：tr*7>7d*4 可以直接生出很多 tr td -->
 <!--border="1" 表格外匡線才會顯現-->
     <table border="1"> 
@@ -41,10 +44,10 @@
         <td colspan="4">直轄市長辦公地址</td>
     </tr>
     <tr>
-        <td>直轄市	</td>
-        <td>職稱</td>
-        <td>姓名</td>
-        <td>辦公地址</td>
+        <th>直轄市	</th>
+        <th>職稱</th>
+        <th>姓名</th>
+        <th>辦公地址</th>
     </tr>
     <tr>
         <td>台北市</td>
@@ -80,6 +83,21 @@
   
 </table>
     
+</div>
+
+<div>
+<!--練習四：圖片超連結 -->
+<a
+href="https://www.google.com.tw/maps/place/臺南市政府臺北辦公室/@25.0443154,121.5192868,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a9710a60dcff:0xeafc1f428f1aaaf0!8m2!3d25.0443154!4d121.5214755"(target="_blank")>台南市長辦公室</a>
+
+ <a
+href="subpage.html" (target="_blank")>subpage</a>
+</div>
+
+<div>
+<!-- 有 end tab 的可以包住別人，image tab 沒有 end tab 不行包住別人-->
+<a href="www.google.com/doodles/evidence-of-water-found-on-mars"(target="_blank")alt="在火星上發現水的存在"><img src="http://www.google.com/logos/doodles/2015/evidence-of-water-found-on-mars-5652760466817024.2-hp2x.gif" height=200></a>
+
 </div>
 </body>
 </html>
